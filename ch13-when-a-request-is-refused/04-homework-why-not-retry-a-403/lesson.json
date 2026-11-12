@@ -1,0 +1,9 @@
+{
+  "title": "Homework: Why Not Retry a 403",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Explain why a 403 should stop a request rather than be retried, and what the script should report instead.",
+  "prerequisites": ["Classifying a Refusal"],
+  "section": "homework",
+  "spoiler": true
+}

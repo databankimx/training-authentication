@@ -1,0 +1,7 @@
+# Python packages for the tutorial's samples. Install with:
+#   .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+# The versions are pinned to the ones whose licenses were checked for the tutorial.
+PyJWT==2.13.0
+cryptography==46.0.7
+fastapi==0.128.1
+httpx==0.28.1

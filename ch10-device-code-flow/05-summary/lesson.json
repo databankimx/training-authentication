@@ -1,0 +1,7 @@
+{
+  "title": "Summary: The Device Code Flow",
+  "runtime": "none",
+  "minutes": 5,
+  "objective": "Check your understanding of the device code flow, its poll states, and how a device should behave while it waits.",
+  "prerequisites": ["Homework: The State Machine", "Homework: When the Server Says Slow Down"]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Homework: Check the Verifier",
+  "runtime": "multi",
+  "minutes": 30,
+  "objective": "Write the check a server makes at the token endpoint: recompute the challenge from the verifier, compare it with the stored value, and refuse a missing verifier.",
+  "prerequisites": ["Computing the Code Challenge"],
+  "section": "homework",
+  "spoiler": true,
+  "languages": ["csharp", "python", "javascript"],
+  "expected": "accepted\nrejected\nrejected"
+}

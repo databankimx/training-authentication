@@ -1,0 +1,7 @@
+{
+  "title": "Selecting a Key by kid",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Read a published key set, select the key named by a token's kid, and refuse a kid the issuer has not published.",
+  "prerequisites": ["Discovery and the Key Set"]
+}

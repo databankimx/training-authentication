@@ -1,0 +1,7 @@
+{
+  "title": "What a Log Line Holds",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Choose what a log line should record to explain a failure, and name the places secrets usually leak into logs.",
+  "prerequisites": ["Summary: When a Request Is Refused"]
+}

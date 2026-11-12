@@ -1,0 +1,7 @@
+{
+  "title": "Summary: Protecting Endpoints",
+  "runtime": "none",
+  "minutes": 5,
+  "objective": "Check your understanding of deny by default, the per-endpoint decision, named policies, and testing every endpoint.",
+  "prerequisites": ["Homework: The Decision Table", "Homework: The Unprotected Route"]
+}

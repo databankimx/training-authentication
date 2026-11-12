@@ -1,0 +1,9 @@
+{
+  "title": "Homework: The Backup Job",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Review a backup job's requested scopes, decide which ones it needs, and explain the risk of the ones it doesn't.",
+  "prerequisites": ["What a Scope Is"],
+  "section": "homework",
+  "spoiler": true
+}

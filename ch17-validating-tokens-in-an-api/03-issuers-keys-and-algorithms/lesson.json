@@ -1,0 +1,7 @@
+{
+  "title": "Issuers, Keys, and Algorithms",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Explain why the API decides which issuers, keys, and algorithms it trusts, rather than reading them from the token.",
+  "prerequisites": ["A Protected Endpoint"]
+}

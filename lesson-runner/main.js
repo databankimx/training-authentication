@@ -27,7 +27,7 @@ const {
 } = require('./core/state');
 const { loadWindowState, saveWindowState, isVisibleOn } = require('./core/window-state');
 const { probeAll } = require('./core/toolchains');
-const { FILE_NAMES, commandFor } = require('./core/run');
+const { FILE_NAMES, commandFor, environmentFor, runFolderFor, prerequisiteProblem } = require('./core/run');
 const { syntaxCommand, parseDiagnostics, outputMatches } = require('./core/check');
 const { isGatedStep } = require('./core/gating');
 
@@ -237,12 +237,14 @@ async function startRun(sender, lessonId, language, code, sample = false) {
   if (!tool || !tool.available) throw new Error(`${language} is not installed on this computer.`);
 
   stopActiveRun();
-  const dir = path.join(app.getPath('userData'), 'runs', lessonId.replace(/[^A-Za-z0-9-]+/g, '_'));
+  const problem = prerequisiteProblem(language, courseRoot);
+  if (problem) throw new Error(problem);
+  const dir = runFolderFor(language, lessonId, courseRoot, app.getPath('userData'));
   fs.mkdirSync(dir, { recursive: true });
   const file = FILE_NAMES[language];
   fs.writeFileSync(path.join(dir, file), code, 'utf8');
 
-  const { command, args } = commandFor(language, file);
+  const { command, args } = commandFor(language, file, environmentFor(courseRoot));
   const send = (payload) => {
     if (!sender.isDestroyed()) sender.send('run:event', payload);
   };
@@ -273,7 +275,9 @@ function writeSource(lessonId, language, code) {
     throw new Error('This step has no code in that language.');
   }
   if (typeof code !== 'string' || code.length > 200000) throw new Error('The code is too long to check.');
-  const dir = path.join(app.getPath('userData'), 'runs', lessonId.replace(/[^A-Za-z0-9-]+/g, '_'));
+  const problem = prerequisiteProblem(language, courseRoot);
+  if (problem) throw new Error(problem);
+  const dir = runFolderFor(language, lessonId, courseRoot, app.getPath('userData'));
   fs.mkdirSync(dir, { recursive: true });
   const file = FILE_NAMES[language];
   fs.writeFileSync(path.join(dir, file), code, 'utf8');
@@ -321,7 +325,7 @@ async function checkSource(lessonId, language, code) {
   // For C#, the syntax check is a run of the program, so its output is the output to compare.
   let output = syntaxResult;
   if (language !== 'csharp') {
-    const run = commandFor(language, file);
+    const run = commandFor(language, file, environmentFor(courseRoot));
     output = await runToEnd(run.command, run.args, dir, TIME_LIMIT_MS[language]);
   }
   if (outputMatches(item.expected, output.stdout)) return { kind: 'passed' };

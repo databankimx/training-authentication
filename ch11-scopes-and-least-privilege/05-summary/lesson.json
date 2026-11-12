@@ -1,0 +1,7 @@
+{
+  "title": "Summary: Scopes and Least Privilege",
+  "runtime": "none",
+  "minutes": 5,
+  "objective": "Check your understanding of what a scope grants, least privilege, and checking requested scopes before sending them.",
+  "prerequisites": ["Homework: Remove the Unneeded Scopes", "Homework: The Backup Job"]
+}

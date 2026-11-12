@@ -29,6 +29,7 @@ dist/
 
 # Node (the lesson runner and JavaScript examples)
 node_modules/
+samples/.runs/
 npm-debug.log*
 .npm
 

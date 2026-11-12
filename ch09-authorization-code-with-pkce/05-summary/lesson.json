@@ -1,0 +1,7 @@
+{
+  "title": "Summary: Authorization Code with PKCE",
+  "runtime": "none",
+  "minutes": 5,
+  "objective": "Check your understanding of why PKCE exists, how the challenge is made, and what the server checks at the token endpoint.",
+  "prerequisites": ["Homework: Check the Verifier", "Homework: An Intercepted Code"]
+}

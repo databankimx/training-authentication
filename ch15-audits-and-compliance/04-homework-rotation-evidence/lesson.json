@@ -1,0 +1,9 @@
+{
+  "title": "Homework: Rotation Evidence",
+  "runtime": "none",
+  "minutes": 20,
+  "objective": "List the evidence that a script's client secret was rotated on schedule, and name the owner responsible for each item.",
+  "prerequisites": ["What Auditors Ask About Authentication"],
+  "section": "homework",
+  "spoiler": true
+}

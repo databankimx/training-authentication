@@ -1,0 +1,7 @@
+{
+  "title": "Summary: Cross-Site Request Forgery",
+  "runtime": "none",
+  "minutes": 5,
+  "objective": "Check your understanding of how the attack works, the origin and token checks, SameSite, and why the token is not the cookie.",
+  "prerequisites": ["Homework: The Checks in Order", "Homework: The Cookie Is Not the Token"]
+}
