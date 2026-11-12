@@ -1,0 +1,7 @@
+{
+  "title": "Identity and Credentials",
+  "runtime": "none",
+  "minutes": 10,
+  "objective": "Tell identity from permission, and recognize a credential and what to do when one leaks.",
+  "prerequisites": []
+}

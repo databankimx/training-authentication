@@ -1,0 +1,9 @@
+{
+  "title": "Homework: Draw the Sign-In Flow",
+  "runtime": "none",
+  "minutes": 20,
+  "objective": "Draw, as a numbered sequence, the steps of a federated sign-in to one application, naming the parties and the checks at each step.",
+  "prerequisites": ["Accounts, Provisioning, and Multi-Factor Sign-In"],
+  "section": "homework",
+  "spoiler": true
+}

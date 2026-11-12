@@ -1,0 +1,7 @@
+{
+  "title": "Building an Authorization Request",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Build an OpenID Connect authorization request from its parameters, with each value encoded, in C#, Python, and JavaScript.",
+  "prerequisites": ["SAML and OpenID Connect"]
+}

@@ -1,0 +1,7 @@
+{
+  "title": "How This Tutorial Works",
+  "runtime": "none",
+  "minutes": 10,
+  "objective": "Run the same example in C#, Python, and JavaScript, and know how libraries, homework, and real systems are handled.",
+  "prerequisites": ["Identity and Credentials"]
+}

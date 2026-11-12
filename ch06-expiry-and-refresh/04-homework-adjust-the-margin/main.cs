@@ -1,0 +1,7 @@
+// The expiry, the request times, and the margins are fixed, so the output repeats.
+var expiry = 1893456000L;
+var requestTimes = new long[] { 1893455700L, 1893455800L, 1893455900L, 1893455950L, 1893456000L };
+var margins = new long[] { 60L, 120L, 240L };
+
+// Write your code below this comment. For each margin, count the requests that need a refresh first, and the requests
+// that found the token expired. Print one line per margin, in the form "Margin 60: refresh first 1, expired 1".

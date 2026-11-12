@@ -1,0 +1,7 @@
+{
+  "title": "Where an API Key Goes",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Build a request that carries an API key in a header, with the URL free of the key.",
+  "prerequisites": ["What an API Key Is"]
+}

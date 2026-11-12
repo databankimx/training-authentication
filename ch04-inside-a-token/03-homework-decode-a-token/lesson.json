@@ -1,0 +1,11 @@
+{
+  "title": "Homework: Decode a Token",
+  "runtime": "multi",
+  "minutes": 25,
+  "objective": "Decode the payload of a token, then print its subject, its expiry in Unix seconds, and its expiry as a UTC date.",
+  "prerequisites": ["Decoding an Example Token"],
+  "section": "homework",
+  "spoiler": true,
+  "languages": ["csharp", "python", "javascript"],
+  "expected": "Subject: svc-1\nExpires at (Unix seconds): 1893456000\nExpires at (UTC): 2030-01-01"
+}

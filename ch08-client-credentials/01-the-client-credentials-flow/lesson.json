@@ -1,0 +1,7 @@
+{
+  "title": "The Client Credentials Flow",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Explain how a script with its own identity obtains an access token, and what the token response contains.",
+  "prerequisites": ["Summary: Sign-In Strategies"]
+}

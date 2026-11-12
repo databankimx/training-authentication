@@ -1,0 +1,22 @@
+{
+  "name": "training-authentication-runner",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lesson runner for the Authentication for Automation tutorial: rendered lessons, language tabs, homework, and Run and Check in C#, Python, and JavaScript",
+  "main": "main.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test test/catalog.test.js test/markdown.test.js test/state.test.js test/window-state.test.js test/run.test.js test/highlight.test.js test/check.test.js test/shadow.test.js test/gating.test.js test/sample.test.js test/sources.test.js"
+  },
+  "dependencies": {
+    "highlight.js": "^11.10.0",
+    "markdown-it": "^15.0.3"
+  },
+  "devDependencies": {
+    "electron": "45.2.3"
+  }
+}

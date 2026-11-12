@@ -1,0 +1,7 @@
+{
+  "title": "Refresh Tokens",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Explain how a refresh token renews access, why it must be protected more carefully than an access token, and how to avoid refreshing too often.",
+  "prerequisites": ["Deciding If a Token Is Usable"]
+}
