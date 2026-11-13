@@ -22,6 +22,8 @@ The expected output is three lines:
 
 > **Common mistake.** Masking every value the same way, including short ones. A three-character secret masked as its last four is the whole secret. Check the length first.
 
+> **.NET Framework 4.8.** The C# solution uses the index-from-end form `value[^4..]`, which is a C# 8 feature. On .NET Framework 4.8, write the last four characters as `value.Substring(value.Length - 4)`.
+
 Use the starter for your language, write the function and the printing below the comment, then press Run to see your output, and Check to compare it with the expected result. The answer key is behind the Show solution button, after you've tried.
 
 ---

@@ -1,0 +1,7 @@
+{
+  "title": "Each Hop Has Its Own Identity",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Explain why each service in a call chain holds its own identity, and why a token received from the caller must not be forwarded to the next hop.",
+  "prerequisites": ["Summary: Cross-Site Request Forgery"]
+}

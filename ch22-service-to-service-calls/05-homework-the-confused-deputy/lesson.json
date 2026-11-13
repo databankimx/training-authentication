@@ -1,0 +1,9 @@
+{
+  "title": "Homework: The Confused Deputy",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Explain how forwarding a user's token can make a service act with authority it was never meant to use, and name the check that stops it.",
+  "prerequisites": ["Exchange and the User"],
+  "section": "homework",
+  "spoiler": true
+}

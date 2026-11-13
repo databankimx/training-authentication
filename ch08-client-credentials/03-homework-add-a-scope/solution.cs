@@ -1,3 +1,7 @@
+// The two lines below suppress compiler warnings that would confuse a learner. They are not part of the exercise.
+#:property Nullable=disable
+#:property PublishAot=false
+
 using System.Linq;
 
 // The endpoint, client, and secret are fake, and nothing is sent.

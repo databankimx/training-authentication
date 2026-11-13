@@ -7,6 +7,7 @@ The tokens are signed with the fake secret from Chapter 17, and each request's s
 ~~~examples source
 ```csharp
 #:sdk Microsoft.NET.Sdk.Web
+// The two lines below suppress compiler warnings that would confuse a learner. They are not part of the exercise.
 #:property PublishAot=false
 #:property Nullable=disable
 #:package Microsoft.AspNetCore.TestHost@10.*-*
@@ -237,7 +238,7 @@ Change the `/orders` line in one tab to require `reports.read`, and press Run. T
 
 > **Note: Windows Firewall.** The JavaScript example starts Express on a local port and calls it. The first time it runs, Windows Firewall may show a prompt asking whether to allow Node.js to accept connections. The example only uses 127.0.0.1, so choose Allow for private networks. There's no need to allow public networks.
 
-> **.NET Framework 4.8.** ASP.NET Core doesn't run on .NET Framework 4.8. The 4.8 alternative is ASP.NET Web API 2 with OWIN middleware, which applies the same scope check in a message handler or an attribute, using the same validation parameters.
+> **.NET Framework 4.8.** ASP.NET Core doesn't run on .NET Framework 4.8. The 4.8 alternative is ASP.NET Web API 2 with OWIN middleware, which applies the same scope check in a message handler or an attribute, using the same validation parameters. The C# sample also uses the range operator in `header["Bearer ".Length..]`, which is a C# 8 feature, and the `Split(' ', ...)` overload, which exists only in .NET Core. On 4.8, use `header.Substring("Bearer ".Length)` and `Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)`.
 
 > **Aside: 401 and 403 answer different questions.**
 > A 401 says the caller could not be identified, so signing in again may help. A 403 says the caller is identified and lacks permission, so signing in again won't help, and the caller needs a different permission. Use each one for its own case.

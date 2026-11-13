@@ -7,6 +7,8 @@ The fake secret and identifiers are for this example only. A real API gets its k
 ~~~examples source
 ```csharp
 #:sdk Microsoft.NET.Sdk.Web
+// The two lines below suppress compiler warnings that would confuse a learner. They are not part of the exercise.
+#:property Nullable=disable
 #:property PublishAot=false
 #:package Microsoft.AspNetCore.TestHost@10.*-*
 #:package System.IdentityModel.Tokens.Jwt@8.22.0
@@ -192,7 +194,7 @@ Change the valid token's lifetime in one tab to a negative number of minutes, an
 
 > **Note: Windows Firewall.** The JavaScript example starts Express on a local port and calls it. The first time it runs, Windows Firewall may show a prompt asking whether to allow Node.js to accept connections. The example only uses 127.0.0.1, so choose Allow for private networks. There's no need to allow public networks.
 
-> **.NET Framework 4.8.** ASP.NET Core doesn't run on .NET Framework 4.8, so this C# sample can't be copied to a 4.8 project as it stands. The 4.8 alternative is ASP.NET Web API 2 with OWIN middleware, using the same validation parameters: the issuer, audience, lifetime, clock skew, and signing key are set the same way. The `System.IdentityModel.Tokens.Jwt` calls work on 4.8 unchanged.
+> **.NET Framework 4.8.** ASP.NET Core doesn't run on .NET Framework 4.8, so this C# sample can't be copied to a 4.8 project as it stands. The 4.8 alternative is ASP.NET Web API 2 with OWIN middleware, using the same validation parameters: the issuer, audience, lifetime, clock skew, and signing key are set the same way. The `System.IdentityModel.Tokens.Jwt` calls work on 4.8 unchanged. The C# sample also uses the range operator in `header["Bearer ".Length..]`, which is a C# 8 feature. On 4.8, use `header.Substring("Bearer ".Length)` instead.
 
 > **Aside: the test host runs the real pipeline.**
 > The requests pass through the same middleware and routing as a production request, and only the network is missing. A test that passes here is testing the real validation, not a copy of it.

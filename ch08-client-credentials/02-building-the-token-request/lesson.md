@@ -8,6 +8,9 @@ The client identifier and the secret are fake, and the token endpoint is a reser
 
 ~~~examples source
 ```csharp
+// The two lines below suppress compiler warnings that would confuse a learner. They are not part of the exercise.
+#:property Nullable=disable
+#:property PublishAot=false
 using System.Linq;
 
 // Example values only. The secret is fake, and the endpoint is reserved for examples. Nothing is sent.

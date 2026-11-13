@@ -8,6 +8,9 @@ The sample builds a request to an example address, with the key in a header name
 
 ~~~examples source
 ```csharp
+// The two lines below suppress compiler warnings that would confuse a learner. They are not part of the exercise.
+#:property Nullable=disable
+#:property PublishAot=false
 // The key is fake, and the address is reserved for examples. The key travels in a header, not in the URL.
 var url = "https://api.example.invalid/reports";
 var key = "example-key-not-real";

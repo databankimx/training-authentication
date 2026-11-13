@@ -1,3 +1,7 @@
+// The two lines below suppress compiler warnings that would confuse a learner. They are not part of the exercise.
+#:property Nullable=disable
+#:property PublishAot=false
+
 // The expiry, the request times, and the margins are fixed, so the output repeats.
 var expiry = 1893456000L;
 var requestTimes = new long[] { 1893455700L, 1893455800L, 1893455900L, 1893455950L, 1893456000L };

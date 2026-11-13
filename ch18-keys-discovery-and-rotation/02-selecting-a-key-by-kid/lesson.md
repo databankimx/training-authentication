@@ -6,6 +6,7 @@ The key set is fixed and offline, so the output is the same on every run. The `n
 
 ~~~examples source
 ```csharp
+// The two lines below suppress compiler warnings that would confuse a learner. They are not part of the exercise.
 #:property Nullable=disable
 #:property PublishAot=false
 using System.Text.Json;

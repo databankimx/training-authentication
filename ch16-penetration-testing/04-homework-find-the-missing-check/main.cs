@@ -1,3 +1,7 @@
+// The two lines below suppress compiler warnings that would confuse a learner. They are not part of the exercise.
+#:property Nullable=disable
+#:property PublishAot=false
+
 // The API's own identifier, the time now, and three fixed cases. A real API reads the time from the clock.
 var apiAudience = "https://api.example.invalid/reports";
 var now = 1893455900L;

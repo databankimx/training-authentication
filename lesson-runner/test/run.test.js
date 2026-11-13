@@ -15,13 +15,14 @@ test('each course language maps to its source file name', () => {
 });
 
 test('each language runs its file with its own command', () => {
-  assert.deepEqual(commandFor('csharp', 'main.cs'), { command: 'dotnet', args: ['run', 'main.cs'] });
-  assert.deepEqual(commandFor('python', 'main.py'), { command: 'python', args: ['main.py'] });
-  assert.deepEqual(commandFor('javascript', 'main.js'), { command: 'node', args: ['main.js'] });
+  const environment = { python: 'C:\\course\\.venv\\Scripts\\python.exe' };
+  assert.deepEqual(commandFor('csharp', 'main.cs', environment), { command: 'dotnet', args: ['run', 'main.cs'] });
+  assert.deepEqual(commandFor('python', 'main.py', environment), { command: environment.python, args: ['main.py'] });
+  assert.deepEqual(commandFor('javascript', 'main.js', environment), { command: 'node', args: ['main.js'] });
 });
 
 test('an unknown language is refused', () => {
-  assert.throws(() => commandFor('typescript', 'main.ts'), /no way to run typescript/);
+  assert.throws(() => commandFor('typescript', 'main.ts', {}), /no way to run typescript/);
 });
 
 test('a language whose command runs is available, with its first line of version output', async () => {

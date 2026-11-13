@@ -21,7 +21,7 @@ removed: reports.write admin.all
 
 > **Common mistake.** Removing scopes by name in a hard-coded list of your own, rather than by checking each requested scope against the scopes the job needs. The filter keeps the request honest if the request changes later.
 
-> **.NET Framework 4.8.** This exercise uses `HashSet`, LINQ `Where`, and `string.Join`, which .NET Framework 4.8 provides. No callout is needed.
+> **.NET Framework 4.8.** This exercise uses `HashSet`, LINQ `Where`, and `string.Join`, which .NET Framework 4.8 provides. The C# solution puts string literals inside interpolation braces, as in `{string.Join(" ", kept)}`. That's a C# 11 feature, which 4.8 doesn't support. On 4.8, join the scopes into a variable first, then interpolate the variable.
 
 Use the starter for your language, write your code below the comment, then press Run to see your output, and Check to compare it with the expected result. The answer key is behind the Show solution button, after you've tried.
 

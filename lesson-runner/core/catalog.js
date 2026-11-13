@@ -95,13 +95,13 @@ function flatten(chapters) {
   return items;
 }
 
-// The sidebar needs chapters with their steps, but not file paths. A chapter's label includes its number, as in
-// "Ch00 - Introduction".
+// The sidebar needs chapters with their steps, but not file paths. A chapter's label includes its number once, as in
+// "Ch00 - Introduction". The heading already carries the number, so it is removed from the label.
 function summarize(chapters) {
   return chapters.map((chapter) => ({
     id: chapter.id,
     title: chapter.title,
-    label: `Ch${String(chapter.number).padStart(2, '0')} - ${chapter.title}`,
+    label: `Ch${String(chapter.number).padStart(2, '0')} - ${chapter.title.replace(/^\d+\.\s*/, '')}`,
     steps: chapter.steps.map((step) => ({
       id: step.id,
       title: step.title,

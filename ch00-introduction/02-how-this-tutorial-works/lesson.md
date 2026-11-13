@@ -8,6 +8,9 @@ Here's the smallest possible example in each language. Press Run in each tab, an
 
 ~~~examples
 ```csharp
+// The two lines below suppress compiler warnings that would confuse a learner. They are not part of the exercise.
+#:property Nullable=disable
+#:property PublishAot=false
 Console.WriteLine("Hello, Authentication for Automation.");
 ```
 ```python

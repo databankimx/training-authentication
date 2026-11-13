@@ -1,3 +1,7 @@
+// The two lines below suppress compiler warnings that would confuse a learner. They are not part of the exercise.
+#:property Nullable=disable
+#:property PublishAot=false
+
 // The key set the issuer publishes now, after a rotation. Each fetch returns this set, and every fetch is counted.
 var published = new HashSet<string> { "rsa-2026-01", "rsa-2026-02" };
 var fetches = 0;

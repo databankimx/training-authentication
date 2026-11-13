@@ -4,6 +4,9 @@ A script that handles refusals needs one decision per status code. The sample wr
 
 ~~~examples source
 ```csharp
+// The two lines below suppress compiler warnings that would confuse a learner. They are not part of the exercise.
+#:property Nullable=disable
+#:property PublishAot=false
 // Example status codes, as an API might return them. The action for each one is the next step the script takes.
 var statusCodes = new[] { 200, 401, 403, 429, 503 };
 

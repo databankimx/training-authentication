@@ -17,7 +17,7 @@ The starter's three tokens are signed with a 64-byte secret, which HS512 require
 
 > **Common mistake.** Narrowing the list in one place, and leaving a second validation path that still accepts the wider list. Every path that verifies a token must use the same allowed list.
 
-> **.NET Framework 4.8.** The C# starter uses `JwtSecurityTokenHandler`, `SymmetricSecurityKey`, and `ReadJwtToken`, which the System.IdentityModel.Tokens.Jwt package provides on 4.8. No callout is needed for the algorithm check.
+> **.NET Framework 4.8.** The C# starter uses `JwtSecurityTokenHandler`, `SymmetricSecurityKey`, and `ReadJwtToken`, which the System.IdentityModel.Tokens.Jwt package provides on 4.8. The C# starter also puts a string literal inside the interpolation braces of its last output line, as in `{Validate(MakeToken(..., "https://..."))}`. That's a C# 11 feature. On 4.8, move the token into a variable first, then interpolate the variable.
 
 Use the starter for your language, make the change, then press Run to see your output, and Check to compare it with the expected result. The answer key is behind the Show solution button, after you've tried.
 

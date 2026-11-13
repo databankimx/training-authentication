@@ -8,6 +8,9 @@ The sample looks up a variable called `EXAMPLE_API_TOKEN`. If the variable isn't
 
 ~~~examples
 ```csharp
+// The two lines below suppress compiler warnings that would confuse a learner. They are not part of the exercise.
+#:property Nullable=disable
+#:property PublishAot=false
 // The variable name is the only thing this sample knows about the secret. Its value is never printed.
 var name = "EXAMPLE_API_TOKEN";
 var value = Environment.GetEnvironmentVariable(name);

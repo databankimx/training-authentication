@@ -6,6 +6,9 @@ The fixed inputs are three cases. A valid token for this API, an expired token, 
 
 ~~~examples source
 ```csharp
+// The two lines below suppress compiler warnings that would confuse a learner. They are not part of the exercise.
+#:property Nullable=disable
+#:property PublishAot=false
 // The API's own identifier, the time now, and three fixed sets of claims. A real API reads the time from the clock.
 var apiAudience = "https://api.example.invalid/reports";
 var now = 1893455900L;

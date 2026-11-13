@@ -7,6 +7,7 @@ The client secret and the token exchange are left out. The sample shows the call
 ~~~examples source
 ```csharp
 #:sdk Microsoft.NET.Sdk.Web
+// The two lines below suppress compiler warnings that would confuse a learner. They are not part of the exercise.
 #:property PublishAot=false
 #:property Nullable=disable
 #:package Microsoft.AspNetCore.TestHost@10.*-*

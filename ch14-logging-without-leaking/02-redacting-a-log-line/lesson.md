@@ -6,6 +6,9 @@ The sample uses a fixed log line that carries a bearer token and a password. It 
 
 ~~~examples source
 ```csharp
+// The two lines below suppress compiler warnings that would confuse a learner. They are not part of the exercise.
+#:property Nullable=disable
+#:property PublishAot=false
 using System.Text.RegularExpressions;
 
 // A fixed log line with a bearer token and a password in it. The values are fake.

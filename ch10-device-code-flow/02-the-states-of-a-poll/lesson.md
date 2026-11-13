@@ -6,6 +6,9 @@ The sample uses a fixed sequence of answers, so the output repeats. A real devic
 
 ~~~examples source
 ```csharp
+// The two lines below suppress compiler warnings that would confuse a learner. They are not part of the exercise.
+#:property Nullable=disable
+#:property PublishAot=false
 using System.Collections.Generic;
 
 // A fixed sequence of answers from the token endpoint. A real device reads each one from the server.

@@ -8,6 +8,9 @@ The sample builds that URL from example values. Each value is percent-encoded, s
 
 ~~~examples source
 ```csharp
+// The two lines below suppress compiler warnings that would confuse a learner. They are not part of the exercise.
+#:property Nullable=disable
+#:property PublishAot=false
 // Example values only. The client identifier and the state are fake, and the addresses are reserved for examples.
 var authorizeEndpoint = "https://login.example.invalid/authorize";
 var parameters = new[]

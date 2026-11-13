@@ -9,6 +9,7 @@ The token value is fixed and fake, so the output is repeatable. In a real applic
 ~~~examples source
 ```csharp
 #:sdk Microsoft.NET.Sdk.Web
+// The two lines below suppress compiler warnings that would confuse a learner. They are not part of the exercise.
 #:property PublishAot=false
 #:property Nullable=disable
 #:package Microsoft.AspNetCore.TestHost@10.*-*

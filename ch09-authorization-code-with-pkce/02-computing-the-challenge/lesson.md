@@ -4,6 +4,9 @@ The challenge is computed in three steps: take the verifier's ASCII bytes, take 
 
 ~~~examples source
 ```csharp
+// The two lines below suppress compiler warnings that would confuse a learner. They are not part of the exercise.
+#:property Nullable=disable
+#:property PublishAot=false
 using System.Security.Cryptography;
 using System.Text;
 

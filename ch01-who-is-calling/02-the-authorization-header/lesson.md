@@ -18,6 +18,9 @@ The sample below builds the header for a bearer token. The token is fake, and it
 
 ~~~examples
 ```csharp
+// The two lines below suppress compiler warnings that would confuse a learner. They are not part of the exercise.
+#:property Nullable=disable
+#:property PublishAot=false
 // A fake token, for illustration only. Real tokens come from an identity provider.
 var token = "example-token-not-real";
 var headers = new Dictionary<string, string>
