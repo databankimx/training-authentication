@@ -1,0 +1,9 @@
+{
+  "title": "Homework: When the Server Says Slow Down",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Explain what a slow_down answer asks the device to do, and what goes wrong if the device ignores it.",
+  "prerequisites": ["How the Device Code Flow Works"],
+  "section": "homework",
+  "spoiler": true
+}

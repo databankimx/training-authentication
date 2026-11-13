@@ -1,0 +1,7 @@
+{
+  "title": "Discovery and the Key Set",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Explain how an API finds an issuer's published keys through the discovery document, and how each token names the key it needs.",
+  "prerequisites": ["Validating Tokens in an API"]
+}

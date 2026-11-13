@@ -1,0 +1,7 @@
+{
+  "title": "Reusing a Service Token",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Cache a service's token for reuse across calls, and fetch a new one only when the cached token is within its safety margin of expiry.",
+  "prerequisites": ["Each Hop Has Its Own Identity"]
+}

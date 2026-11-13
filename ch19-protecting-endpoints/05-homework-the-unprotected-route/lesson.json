@@ -1,0 +1,9 @@
+{
+  "title": "Homework: The Unprotected Route",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Find the gap in an API where a new route was added without its protection, and say how the design should prevent it.",
+  "prerequisites": ["Policies and Consistency"],
+  "section": "homework",
+  "spoiler": true
+}

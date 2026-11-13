@@ -1,0 +1,11 @@
+{
+  "title": "Homework: The State Machine",
+  "runtime": "multi",
+  "minutes": 30,
+  "objective": "Model the device's states, so an answer after a final state keeps the flow where it ended.",
+  "prerequisites": ["The States of a Poll"],
+  "section": "homework",
+  "spoiler": true,
+  "languages": ["csharp", "python", "javascript"],
+  "expected": "poll 1: authorization_pending -> waiting\npoll 2: slow_down -> waiting\npoll 3: authorization_pending -> waiting\npoll 4: expired_token -> expired\npoll 5: success -> expired"
+}

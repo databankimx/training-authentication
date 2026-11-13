@@ -1,0 +1,11 @@
+{
+  "title": "Homework: A Basic Credential Header",
+  "runtime": "multi",
+  "minutes": 25,
+  "objective": "Build a Basic Authorization header by encoding a user name and password as Base64.",
+  "prerequisites": ["The Authorization Header"],
+  "section": "homework",
+  "spoiler": true,
+  "languages": ["csharp", "python", "javascript"],
+  "expected": "Basic ZmFrZS11c2VyOmZha2UtcGFzcw=="
+}

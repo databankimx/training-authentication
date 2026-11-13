@@ -1,0 +1,7 @@
+{
+  "title": "Deciding If a Token Is Usable",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Decide whether a token is usable, needs refreshing, or has expired, using a safety margin and fixed times.",
+  "prerequisites": ["Why Tokens Expire"]
+}

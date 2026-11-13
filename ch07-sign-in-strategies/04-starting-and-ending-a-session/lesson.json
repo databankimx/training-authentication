@@ -1,0 +1,7 @@
+{
+  "title": "Starting and Ending a Session",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Tell service-provider-initiated sign-in from identity-provider-initiated sign-in, and explain why single logout is harder than sign-in.",
+  "prerequisites": ["Building an Authorization Request"]
+}

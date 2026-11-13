@@ -1,0 +1,7 @@
+{
+  "title": "Summary: Validating Tokens in an API",
+  "runtime": "none",
+  "minutes": 5,
+  "objective": "Check your understanding of the checks an API makes on every token, and why it chooses its own issuers, keys, and algorithms.",
+  "prerequisites": ["Homework: The Allowed Algorithm", "Homework: Why the Server Chooses"]
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Computing the Code Challenge",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Compute the S256 code challenge for a verifier, and check it against the value published in RFC 7636.",
+  "prerequisites": ["Why PKCE Exists"]
+}

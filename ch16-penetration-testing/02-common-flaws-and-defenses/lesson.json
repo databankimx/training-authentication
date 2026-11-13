@@ -1,0 +1,7 @@
+{
+  "title": "Common Flaws and Their Defenses",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Name the authentication flaws testers most often find, and the defence a developer builds in for each one.",
+  "prerequisites": ["Permission and Scope"]
+}

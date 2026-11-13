@@ -1,0 +1,9 @@
+{
+  "title": "Homework: Choosing a Margin",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Explain how the safety margin trades refresh frequency against the risk of sending an expired token, and what should set its size.",
+  "prerequisites": ["Refresh Tokens"],
+  "section": "homework",
+  "spoiler": true
+}

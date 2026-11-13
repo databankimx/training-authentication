@@ -1,0 +1,11 @@
+{
+  "title": "Homework: Narrow Each Hop",
+  "runtime": "multi",
+  "minutes": 30,
+  "objective": "For each downstream call, request a token for that call's audience with only its scope, and refuse a call whose scope the inbound token does not grant.",
+  "prerequisites": ["Exchange and the User"],
+  "section": "homework",
+  "spoiler": true,
+  "languages": ["csharp", "python", "javascript"],
+  "expected": "reports: token for https://api.example.invalid/reports with reports.read\norders: token for https://api.example.invalid/orders with orders.read\ninvoices: refused, invoices.read not granted"
+}

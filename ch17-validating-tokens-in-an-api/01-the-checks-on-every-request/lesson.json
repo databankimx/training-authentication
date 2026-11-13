@@ -1,0 +1,7 @@
+{
+  "title": "The Checks on Every Request",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Name the checks an API must make on every token before it acts on the request, and the order in which to make them.",
+  "prerequisites": ["Summary: Identity Platforms in Practice"]
+}

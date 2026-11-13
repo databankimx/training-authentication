@@ -1,0 +1,7 @@
+{
+  "title": "Why Tokens Expire",
+  "runtime": "none",
+  "minutes": 10,
+  "objective": "Explain why access tokens have short lives, and what a script must do because of it.",
+  "prerequisites": ["Summary: Checking a Signature"]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Homework: Verify Two Tokens",
+  "runtime": "multi",
+  "minutes": 30,
+  "objective": "Write a function that checks an HMAC-SHA256 signature in constant time, then use it to tell a genuine token from one that was changed.",
+  "prerequisites": ["Checking the Example Signature"],
+  "section": "homework",
+  "spoiler": true,
+  "languages": ["csharp", "python", "javascript"],
+  "expected": "valid\ninvalid"
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Cheat Sheet",
+  "runtime": "none",
+  "minutes": 10,
+  "objective": "Find the checks an API makes, the status codes it returns, and the order it makes them in, on one page."
+}

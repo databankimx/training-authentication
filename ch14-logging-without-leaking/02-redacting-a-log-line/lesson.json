@@ -1,0 +1,7 @@
+{
+  "title": "Redacting a Log Line",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Replace a bearer token and a password in a log line with a redaction marker, leaving the rest of the line unchanged.",
+  "prerequisites": ["What a Log Line Holds"]
+}

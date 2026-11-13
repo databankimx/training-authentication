@@ -1,0 +1,7 @@
+{
+  "title": "Public and Private Keys",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Explain how a key pair lets a verifier check a token without being able to forge one.",
+  "prerequisites": ["Checking the Example Signature"]
+}

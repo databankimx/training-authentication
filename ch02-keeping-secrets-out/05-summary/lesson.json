@@ -1,0 +1,7 @@
+{
+  "title": "Summary: Keeping Secrets Out of the Code",
+  "runtime": "none",
+  "minutes": 5,
+  "objective": "Check your understanding of where secrets belong, how to read one safely, and how to mask one.",
+  "prerequisites": ["Homework: Where a Secret Must Never Appear", "Homework: Masking a Secret"]
+}

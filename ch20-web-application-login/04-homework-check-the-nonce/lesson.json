@@ -1,0 +1,11 @@
+{
+  "title": "Homework: Check the Nonce",
+  "runtime": "multi",
+  "minutes": 25,
+  "objective": "Compare the nonce in an ID token with the nonce stored for the login, and refuse a token whose nonce is missing or different.",
+  "prerequisites": ["The Session and the Nonce"],
+  "section": "homework",
+  "spoiler": true,
+  "languages": ["csharp", "python", "javascript"],
+  "expected": "matching nonce: accepted\nwrong nonce: rejected, nonce mismatch\nno nonce: rejected, nonce missing"
+}

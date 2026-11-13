@@ -1,0 +1,7 @@
+{
+  "title": "Summary: Expiry and Refresh",
+  "runtime": "none",
+  "minutes": 5,
+  "objective": "Check your understanding of why tokens expire, how a script decides a token is usable, and how refresh tokens renew access.",
+  "prerequisites": ["Homework: Counting Refreshes", "Homework: Choosing a Margin"]
+}

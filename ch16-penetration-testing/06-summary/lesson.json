@@ -1,0 +1,7 @@
+{
+  "title": "Summary: Penetration Testing of Authentication",
+  "runtime": "none",
+  "minutes": 5,
+  "objective": "Check your understanding of written permission and scope, the common authentication flaws and their defences, and how a finding is written.",
+  "prerequisites": ["Homework: Find the Missing Check", "Homework: Write a Finding"]
+}

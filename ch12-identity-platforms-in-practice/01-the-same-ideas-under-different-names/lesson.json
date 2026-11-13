@@ -1,0 +1,7 @@
+{
+  "title": "The Same Ideas Under Different Names",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Recognize the concepts of this tutorial in the terms used by Microsoft Entra ID, Okta, AWS, Google, and Keycloak.",
+  "prerequisites": ["Summary: Scopes and Least Privilege"]
+}

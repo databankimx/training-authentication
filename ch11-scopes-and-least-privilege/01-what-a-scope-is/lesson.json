@@ -1,0 +1,7 @@
+{
+  "title": "What a Scope Is",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Explain what a scope grants, and apply the principle of least privilege when choosing scopes for a job.",
+  "prerequisites": ["Summary: The Device Code Flow"]
+}

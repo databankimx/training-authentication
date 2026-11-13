@@ -1,0 +1,9 @@
+{
+  "title": "Homework: When Someone Leaves",
+  "runtime": "none",
+  "minutes": 20,
+  "objective": "List everything that must be removed or ended when a person leaves, and say why disabling the identity provider account is not enough.",
+  "prerequisites": ["Accounts, Provisioning, and Multi-Factor Sign-In"],
+  "section": "homework",
+  "spoiler": true
+}

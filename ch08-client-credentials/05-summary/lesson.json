@@ -1,0 +1,7 @@
+{
+  "title": "Summary: The Client Credentials Flow",
+  "runtime": "none",
+  "minutes": 5,
+  "objective": "Check your understanding of the client credentials request, its response, and how the secret is handled.",
+  "prerequisites": ["Homework: Add a Scope", "Homework: Why the Secret Is Not Logged"]
+}

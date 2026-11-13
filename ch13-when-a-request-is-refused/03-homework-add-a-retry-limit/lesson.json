@@ -1,0 +1,11 @@
+{
+  "title": "Homework: Add a Retry Limit",
+  "runtime": "multi",
+  "minutes": 30,
+  "objective": "Write a retry loop that follows the action table, refreshes once after a 401, stops at once on a 403, and gives up after a fixed number of retries.",
+  "prerequisites": ["Choosing the Action"],
+  "section": "homework",
+  "spoiler": true,
+  "languages": ["csharp", "python", "javascript"],
+  "expected": "request 1: ok after 3 attempts\nrequest 2: stopped: 403 (no retry)\nrequest 3: gave up after 4 attempts\nrequest 4: ok after 2 attempts"
+}

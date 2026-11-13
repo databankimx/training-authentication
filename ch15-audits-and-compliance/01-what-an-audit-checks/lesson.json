@@ -1,0 +1,7 @@
+{
+  "title": "What an Audit Checks",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Explain the parts of an audit: the criteria, the controls, the evidence, and the findings, and the difference between a point-in-time check and one that covers a period.",
+  "prerequisites": ["Summary: Identity Platforms in Practice"]
+}

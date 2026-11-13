@@ -1,0 +1,7 @@
+{
+  "title": "Checking the Example Signature",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Recompute an HMAC-SHA256 signature for a token and compare it in constant time, in C#, Python, and JavaScript.",
+  "prerequisites": ["How a Signature Proves a Token Is Unchanged"]
+}

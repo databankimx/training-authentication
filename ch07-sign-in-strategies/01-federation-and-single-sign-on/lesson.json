@@ -1,0 +1,7 @@
+{
+  "title": "Federation and Single Sign-On",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Explain how federation lets an application trust a central identity provider, and what single sign-on gives people and administrators.",
+  "prerequisites": ["Summary: Expiry and Refresh"]
+}

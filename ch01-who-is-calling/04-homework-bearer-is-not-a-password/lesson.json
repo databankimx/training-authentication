@@ -1,0 +1,9 @@
+{
+  "title": "Homework: Why a Bearer Token Is Not a Password",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Explain, in your own words, why a bearer token is not a password, and how each one should be protected.",
+  "prerequisites": ["The Authorization Header"],
+  "section": "homework",
+  "spoiler": true
+}

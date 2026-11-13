@@ -1,0 +1,7 @@
+{
+  "title": "Summary: Keys, Discovery, and Rotation",
+  "runtime": "none",
+  "minutes": 5,
+  "objective": "Check your understanding of discovery, selecting a key by kid, and caching the key set through rotation.",
+  "prerequisites": ["Homework: Refetch Once", "Homework: Why Not Every Request"]
+}

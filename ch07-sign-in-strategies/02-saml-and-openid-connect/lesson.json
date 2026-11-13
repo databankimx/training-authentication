@@ -1,0 +1,7 @@
+{
+  "title": "SAML and OpenID Connect",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Compare SAML 2.0 and OpenID Connect, and say which one a given application is likely to use.",
+  "prerequisites": ["Federation and Single Sign-On"]
+}

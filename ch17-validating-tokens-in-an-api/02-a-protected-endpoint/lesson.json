@@ -1,0 +1,7 @@
+{
+  "title": "A Protected Endpoint",
+  "runtime": "none",
+  "minutes": 20,
+  "objective": "Protect an endpoint with token validation, send it three fixed requests inside a test host, and read the status each one receives.",
+  "prerequisites": ["The Checks on Every Request"]
+}

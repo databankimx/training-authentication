@@ -1,0 +1,11 @@
+{
+  "title": "Homework: Add a Scope",
+  "runtime": "multi",
+  "minutes": 25,
+  "objective": "Build a client credentials token request that asks for two scopes, with the scopes encoded and the secret masked.",
+  "prerequisites": ["Building the Token Request"],
+  "section": "homework",
+  "spoiler": true,
+  "languages": ["csharp", "python", "javascript"],
+  "expected": "POST https://login.example.invalid/oauth/token\ngrant_type=client_credentials&client_id=example-client&client_secret=****&scope=reports.read%20orders.read"
+}

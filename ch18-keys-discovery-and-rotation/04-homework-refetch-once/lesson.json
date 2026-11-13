@@ -1,0 +1,11 @@
+{
+  "title": "Homework: Refetch Once",
+  "runtime": "multi",
+  "minutes": 30,
+  "objective": "Serve token kids from a cached key set, refetch once when a kid is unknown, refuse a kid the refetch still does not contain, and count the refetches.",
+  "prerequisites": ["Caching and Rotation"],
+  "section": "homework",
+  "spoiler": true,
+  "languages": ["csharp", "python", "javascript"],
+  "expected": "request 1: rsa-2026-01 from cache\nrequest 2: rsa-2026-02 after refetch\nrequest 3: refused, rsa-2026-03 not published\nrequest 4: rsa-2026-02 from cache\nfetches: 2"
+}

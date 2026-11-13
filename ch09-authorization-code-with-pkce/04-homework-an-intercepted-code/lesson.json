@@ -1,0 +1,9 @@
+{
+  "title": "Homework: An Intercepted Code",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Explain what an attacker gains by intercepting an authorization code without the verifier, and why the verifier is the missing piece.",
+  "prerequisites": ["Computing the Code Challenge"],
+  "section": "homework",
+  "spoiler": true
+}

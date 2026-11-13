@@ -1,0 +1,7 @@
+{
+  "title": "The Authorization Header",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Build an Authorization header for a bearer token, and see exactly what it looks like on the wire.",
+  "prerequisites": ["Authentication and Authorization"]
+}

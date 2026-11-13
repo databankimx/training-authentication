@@ -1,0 +1,7 @@
+{
+  "title": "Exchange and the User",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Explain how a service passes a user's identity downstream with a token exchange, and how service credentials can avoid stored secrets.",
+  "prerequisites": ["Reusing a Service Token"]
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Summary: Capstone",
+  "runtime": "none",
+  "minutes": 5,
+  "objective": "Check your understanding of the complete flow from client to API, the refusals at each step, and what changes for a real provider.",
+  "prerequisites": ["Homework: The Issuer Decides", "Homework: Review Before a Real Provider"]
+}

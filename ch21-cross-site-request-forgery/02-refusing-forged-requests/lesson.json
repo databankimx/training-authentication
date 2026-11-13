@@ -1,0 +1,7 @@
+{
+  "title": "Refusing Forged Requests",
+  "runtime": "none",
+  "minutes": 20,
+  "objective": "Protect a state-changing endpoint with an anti-forgery token and an origin check, and send four requests to see which are refused.",
+  "prerequisites": ["How the Attack Works"]
+}

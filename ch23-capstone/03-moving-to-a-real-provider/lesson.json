@@ -1,0 +1,7 @@
+{
+  "title": "Moving to a Real Provider",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "List what changes when the simulated provider is replaced with a real one, and what must be in place before any real credential is used.",
+  "prerequisites": ["The Capstone Sample"]
+}
