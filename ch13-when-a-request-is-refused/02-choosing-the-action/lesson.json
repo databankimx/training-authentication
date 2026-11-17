@@ -1,0 +1,7 @@
+{
+  "title": "Choosing the Action",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Map each status code a request can return to the next action a script should take.",
+  "prerequisites": ["Classifying a Refusal"]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Homework: The Checks in Order",
+  "runtime": "multi",
+  "minutes": 25,
+  "objective": "Apply the origin check and the anti-forgery token check, in order, to four state-changing requests, and print the status for each.",
+  "prerequisites": ["SameSite and Binding"],
+  "section": "homework",
+  "spoiler": true,
+  "languages": ["csharp", "python", "javascript"],
+  "expected": "same origin, matching token: 200\nsame origin, no token: 403\nother origin, matching token: 403\nno origin, mismatched token: 403"
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Summary: Who Is Calling",
+  "runtime": "none",
+  "minutes": 5,
+  "objective": "Check your understanding of authentication, authorization, the Authorization header, and the status codes.",
+  "prerequisites": ["Homework: Why a Bearer Token Is Not a Password", "Homework: A Basic Credential Header"]
+}

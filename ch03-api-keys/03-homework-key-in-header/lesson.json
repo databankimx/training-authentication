@@ -1,0 +1,11 @@
+{
+  "title": "Homework: Carry a Key in a Header",
+  "runtime": "multi",
+  "minutes": 25,
+  "objective": "Build a request that carries an API key in a header, then confirm the key does not appear in the URL.",
+  "prerequisites": ["Where an API Key Goes"],
+  "section": "homework",
+  "spoiler": true,
+  "languages": ["csharp", "python", "javascript"],
+  "expected": "GET https://api.example.invalid/v1/orders\nX-Api-Key: fake-key-1234\nKey in URL: no"
+}

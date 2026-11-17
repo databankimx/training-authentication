@@ -1,0 +1,7 @@
+{
+  "title": "Summary: Sign-In Strategies",
+  "runtime": "none",
+  "minutes": 5,
+  "objective": "Check your understanding of federation, SAML and OpenID Connect, how sessions start and end, and what removing an account requires.",
+  "prerequisites": ["Homework: Draw the Sign-In Flow", "Homework: When Someone Leaves"]
+}

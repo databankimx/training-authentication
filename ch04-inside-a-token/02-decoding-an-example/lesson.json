@@ -1,0 +1,7 @@
+{
+  "title": "Decoding an Example Token",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Decode the header and payload of a token in C#, Python, and JavaScript, and read its claims.",
+  "prerequisites": ["The Three Parts of a Token"]
+}

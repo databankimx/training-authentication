@@ -1,0 +1,9 @@
+{
+  "title": "Homework: Why the Secret Is Not Logged",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Explain why a client secret must stay out of logs, and say what a log entry for a failed token request should contain instead.",
+  "prerequisites": ["Building the Token Request"],
+  "section": "homework",
+  "spoiler": true
+}

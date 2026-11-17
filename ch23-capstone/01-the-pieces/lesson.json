@@ -1,0 +1,7 @@
+{
+  "title": "The Pieces",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Name the parts of a complete client and API flow, what each part must prove, and where each chapter of this tutorial applies.",
+  "prerequisites": ["Summary: Service-to-Service Calls"]
+}

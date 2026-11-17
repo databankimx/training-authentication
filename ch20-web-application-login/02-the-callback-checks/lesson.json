@@ -1,0 +1,7 @@
+{
+  "title": "The Callback Checks",
+  "runtime": "none",
+  "minutes": 20,
+  "objective": "Build a login request with state and nonce, store the state in a session cookie, and check the callback's state against it, in a test host.",
+  "prerequisites": ["The Confidential Client"]
+}

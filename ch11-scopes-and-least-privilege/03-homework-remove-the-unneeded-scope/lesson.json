@@ -1,0 +1,11 @@
+{
+  "title": "Homework: Remove the Unneeded Scopes",
+  "runtime": "multi",
+  "minutes": 25,
+  "objective": "Reduce a token request to the scopes a job needs, and report which scopes were kept and which were removed.",
+  "prerequisites": ["Checking Requested Scopes"],
+  "section": "homework",
+  "spoiler": true,
+  "languages": ["csharp", "python", "javascript"],
+  "expected": "requested: reports.read orders.read\nremoved: reports.write admin.all"
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Why PKCE Exists",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Explain why a tool on a person's machine can't keep a secret, and how PKCE ties the code exchange to the app that started the sign-in.",
+  "prerequisites": ["Summary: The Client Credentials Flow"]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Homework: Why Not Every Request",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Explain why an API should not fetch the key set on every request, and what the limits on refetching protect.",
+  "prerequisites": ["Caching and Rotation"],
+  "section": "homework",
+  "spoiler": true
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Homework: The Cookie Is Not the Token",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Explain why the session cookie cannot serve as the anti-forgery token, even when the page also sends it in a header.",
+  "prerequisites": ["SameSite and Binding"],
+  "section": "homework",
+  "spoiler": true
+}

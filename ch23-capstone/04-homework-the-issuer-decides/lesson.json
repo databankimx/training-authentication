@@ -1,0 +1,11 @@
+{
+  "title": "Homework: The Issuer Decides",
+  "runtime": "multi",
+  "minutes": 30,
+  "objective": "Write the identity provider's decision for a token request: refuse an unknown client or a wrong secret, and otherwise grant only the scopes the client is registered for.",
+  "prerequisites": ["The Capstone Sample"],
+  "section": "homework",
+  "spoiler": true,
+  "languages": ["csharp", "python", "javascript"],
+  "expected": "request 1: granted reports.read, denied orders.write\nrequest 2: refused, invalid_client\nrequest 3: refused, invalid_client"
+}

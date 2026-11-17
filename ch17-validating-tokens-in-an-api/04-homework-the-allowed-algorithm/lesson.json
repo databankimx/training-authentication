@@ -1,0 +1,11 @@
+{
+  "title": "Homework: The Allowed Algorithm",
+  "runtime": "multi",
+  "minutes": 30,
+  "objective": "Narrow the validator to the one algorithm the API allows, so a token signed with another algorithm is refused.",
+  "prerequisites": ["Issuers, Keys, and Algorithms"],
+  "section": "homework",
+  "spoiler": true,
+  "languages": ["csharp", "python", "javascript"],
+  "expected": "valid HS256: 200\nHS512 token: 401\nwrong audience: 401"
+}

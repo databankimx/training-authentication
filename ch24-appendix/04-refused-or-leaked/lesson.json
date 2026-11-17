@@ -1,0 +1,6 @@
+{
+  "title": "When a Request Is Refused or a Secret Leaks",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Know what to do first when a request is refused unexpectedly, and when a secret or token is known or suspected to be leaked."
+}

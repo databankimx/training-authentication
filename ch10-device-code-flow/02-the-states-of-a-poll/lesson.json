@@ -1,0 +1,7 @@
+{
+  "title": "The States of a Poll",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Map each response from the token endpoint to the state the device is in, using a fixed sequence of responses.",
+  "prerequisites": ["How the Device Code Flow Works"]
+}

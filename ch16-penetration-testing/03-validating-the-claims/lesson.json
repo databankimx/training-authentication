@@ -1,0 +1,7 @@
+{
+  "title": "Validating the Claims",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Write a claims check that refuses an expired token and a token meant for another API, and see the decision for three fixed cases.",
+  "prerequisites": ["Common Flaws and Their Defenses"]
+}

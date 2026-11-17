@@ -1,0 +1,9 @@
+{
+  "title": "Homework: Why the State Is Tied to the Session",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Explain why the state must be unguessable and must match the session that started the login, using the attack the state prevents.",
+  "prerequisites": ["The Callback Checks"],
+  "section": "homework",
+  "spoiler": true
+}

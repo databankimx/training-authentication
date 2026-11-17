@@ -1,0 +1,9 @@
+{
+  "title": "Homework: Review Before a Real Provider",
+  "runtime": "none",
+  "minutes": 25,
+  "objective": "Review the capstone design, and list the changes it needs before it is connected to a real identity provider.",
+  "prerequisites": ["Moving to a Real Provider"],
+  "section": "homework",
+  "spoiler": true
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Homework: The Decision Table",
+  "runtime": "multi",
+  "minutes": 30,
+  "objective": "Write the decision for each request from an endpoint table, refusing any path the table does not name, and print one status per request.",
+  "prerequisites": ["Policies and Consistency"],
+  "section": "homework",
+  "spoiler": true,
+  "languages": ["csharp", "python", "javascript"],
+  "expected": "/health, no token: 200\n/reports, reports.read: 200\n/orders, reports.read: 403\n/invoices, reports.read orders.write: 404\n/reports, no token: 401"
+}

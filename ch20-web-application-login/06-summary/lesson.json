@@ -1,0 +1,7 @@
+{
+  "title": "Summary: Web Application Login",
+  "runtime": "none",
+  "minutes": 5,
+  "objective": "Check your understanding of the confidential client, the state and nonce checks, and how the session cookie is protected.",
+  "prerequisites": ["Homework: Check the Nonce", "Homework: Why the State Is Tied to the Session"]
+}

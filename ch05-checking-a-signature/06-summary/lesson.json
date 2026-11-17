@@ -1,0 +1,7 @@
+{
+  "title": "Summary: Checking a Signature",
+  "runtime": "none",
+  "minutes": 5,
+  "objective": "Check your understanding of how signatures are computed and verified, and how shared keys differ from key pairs.",
+  "prerequisites": ["Homework: Verify Two Tokens", "Homework: Shared Key or Key Pair"]
+}

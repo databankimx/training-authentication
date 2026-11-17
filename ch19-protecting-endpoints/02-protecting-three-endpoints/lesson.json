@@ -1,0 +1,7 @@
+{
+  "title": "Protecting Three Endpoints",
+  "runtime": "none",
+  "minutes": 20,
+  "objective": "Protect one endpoint with a required scope, leave one public, and send four fixed requests to see the status each rule gives.",
+  "prerequisites": ["Deny by Default"]
+}

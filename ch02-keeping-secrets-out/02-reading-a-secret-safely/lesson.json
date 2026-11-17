@@ -1,0 +1,7 @@
+{
+  "title": "Reading a Secret Safely",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Read a secret from the environment, check that it exists, and report on it without printing it.",
+  "prerequisites": ["Where Secrets Belong"]
+}

@@ -1,0 +1,7 @@
+{
+  "title": "SameSite and Binding",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Explain how the SameSite cookie attribute limits cross-site requests, and why an anti-forgery token must be bound to the session that issued it.",
+  "prerequisites": ["Refusing Forged Requests"]
+}

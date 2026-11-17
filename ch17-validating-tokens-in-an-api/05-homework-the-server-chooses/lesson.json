@@ -1,0 +1,9 @@
+{
+  "title": "Homework: Why the Server Chooses",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Explain why an API must decide the accepted algorithm, issuer, and key itself, instead of reading them from the token.",
+  "prerequisites": ["Issuers, Keys, and Algorithms"],
+  "section": "homework",
+  "spoiler": true
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Deny by Default",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Explain why an API should refuse every request unless an endpoint has been explicitly allowed, and what the decision for each endpoint must check.",
+  "prerequisites": ["Summary: Keys, Discovery, and Rotation"]
+}

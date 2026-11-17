@@ -1,0 +1,7 @@
+{
+  "title": "Permission and Scope",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Explain what makes a penetration test authorized, and what a tester must do when a finding goes beyond the agreed scope.",
+  "prerequisites": ["Summary: Audits and Compliance"]
+}

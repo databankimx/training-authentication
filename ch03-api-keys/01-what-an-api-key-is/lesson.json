@@ -1,0 +1,7 @@
+{
+  "title": "What an API Key Is",
+  "runtime": "none",
+  "minutes": 10,
+  "objective": "Say what an API key identifies, and why it is not the identity of a person.",
+  "prerequisites": ["Summary: Keeping Secrets Out of the Code"]
+}

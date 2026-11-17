@@ -1,0 +1,11 @@
+{
+  "title": "Homework: Masking a Secret",
+  "runtime": "multi",
+  "minutes": 25,
+  "objective": "Write a function that masks a secret, showing only its last four characters, and never reveals a short secret in full.",
+  "prerequisites": ["Reading a Secret Safely"],
+  "section": "homework",
+  "spoiler": true,
+  "languages": ["csharp", "python", "javascript"],
+  "expected": "****real\n****hort\n****"
+}

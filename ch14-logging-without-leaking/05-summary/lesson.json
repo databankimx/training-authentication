@@ -1,0 +1,7 @@
+{
+  "title": "Summary: Logging Without Leaking",
+  "runtime": "none",
+  "minutes": 5,
+  "objective": "Check your understanding of what a log line should record, where secrets leak into logs, and how redaction keeps the rest of the line intact.",
+  "prerequisites": ["Homework: Redact a New Secret", "Homework: What the Error Should Say"]
+}

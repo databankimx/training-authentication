@@ -1,0 +1,7 @@
+{
+  "title": "Accounts, Provisioning, and Multi-Factor Sign-In",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Explain how accounts are created and removed across applications with SCIM, and how multi-factor sign-in adds to a password.",
+  "prerequisites": ["Starting and Ending a Session"]
+}

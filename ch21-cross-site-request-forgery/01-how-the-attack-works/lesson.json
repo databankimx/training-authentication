@@ -1,0 +1,7 @@
+{
+  "title": "How the Attack Works",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Describe how a request started from another site reaches a signed-in application, and name the two defences that stop it.",
+  "prerequisites": ["Summary: Web Application Login"]
+}

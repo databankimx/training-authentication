@@ -1,0 +1,10 @@
+# DataBank Standards Policy Configuration
+# See Custom-Dev-Developer-Guide.md for full rule documentation.
+#
+# The chapter folders (ch00-* through ch24-*) hold tutorial lessons and their
+# exercise and solution files in C#, Python, and JavaScript. They are teaching
+# material, not production code, and are excluded from standards enforcement.
+python:
+  excluded_globs:
+    - "ch*/**"
+    - "samples/**"

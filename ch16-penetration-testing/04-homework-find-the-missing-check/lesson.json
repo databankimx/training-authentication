@@ -1,0 +1,11 @@
+{
+  "title": "Homework: Find the Missing Check",
+  "runtime": "multi",
+  "minutes": 25,
+  "objective": "Find the check a claims validator is missing, add it, and confirm the validator refuses a token meant for another API.",
+  "prerequisites": ["Validating the Claims"],
+  "section": "homework",
+  "spoiler": true,
+  "languages": ["csharp", "python", "javascript"],
+  "expected": "valid: accepted\nother API: rejected: wrong audience\nexpired: rejected: expired"
+}

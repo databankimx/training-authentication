@@ -1,0 +1,9 @@
+{
+  "title": "Homework: An Unowned Account",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Describe how an access review finds a service account with no owner, and what should happen to it.",
+  "prerequisites": ["What Auditors Ask About Authentication"],
+  "section": "homework",
+  "spoiler": true
+}

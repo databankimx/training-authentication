@@ -1,0 +1,7 @@
+{
+  "title": "Caching and Rotation",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Explain how an API caches a key set, when it refetches, and how it handles a kid it does not recognize without refetching on every request.",
+  "prerequisites": ["Selecting a Key by kid"]
+}

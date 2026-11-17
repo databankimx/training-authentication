@@ -1,0 +1,7 @@
+{
+  "title": "Building the Token Request",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Build the form body of a client credentials token request, and print it with the secret masked.",
+  "prerequisites": ["The Client Credentials Flow"]
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Classifying a Refusal",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Tell a missing or expired credential from a missing permission, a rate limit, and a server fault, and name the action each one calls for.",
+  "prerequisites": ["Summary: Scopes and Least Privilege"]
+}

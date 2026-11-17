@@ -1,0 +1,7 @@
+{
+  "title": "Policies and Consistency",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Name each endpoint's requirement in one place, tell scopes from roles, and test that every endpoint refuses what it should.",
+  "prerequisites": ["Protecting Three Endpoints"]
+}

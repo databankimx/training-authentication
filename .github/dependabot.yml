@@ -1,0 +1,65 @@
+version: 2
+updates:
+  # Python packages for the tutorial's samples (requirements.txt at the root)
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+      - "python"
+    groups:
+      # Bundle low-risk minor/patch bumps into one PR; major bumps stay separate
+      python-minor-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+  # Node packages for the lesson runner (Electron app)
+  - package-ecosystem: "npm"
+    directory: "/lesson-runner"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+      - "javascript"
+    groups:
+      npm-minor-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+  # Node packages for the JavaScript samples
+  - package-ecosystem: "npm"
+    directory: "/samples"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+      - "javascript"
+    groups:
+      samples-minor-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+  # GitHub Actions used in workflows
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+      - "github-actions"
+    groups:
+      # Bundle all GitHub Actions updates into a single PR
+      github-actions:
+        patterns:
+          - "*"

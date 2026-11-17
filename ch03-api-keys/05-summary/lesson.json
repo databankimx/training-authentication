@@ -1,0 +1,7 @@
+{
+  "title": "Summary: API Keys",
+  "runtime": "none",
+  "minutes": 5,
+  "objective": "Check your understanding of what an API key identifies, where it goes, and why it must not go in a URL.",
+  "prerequisites": ["Homework: Carry a Key in a Header", "Homework: Why Not Put a Key in the URL"]
+}

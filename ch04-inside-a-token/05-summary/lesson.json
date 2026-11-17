@@ -1,0 +1,7 @@
+{
+  "title": "Summary: Inside a Token",
+  "runtime": "none",
+  "minutes": 5,
+  "objective": "Check your understanding of the parts of a JWT, its common claims, and why decoding is not verifying.",
+  "prerequisites": ["Homework: Decode a Token", "Homework: Decoding Is Not Verifying"]
+}

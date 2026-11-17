@@ -1,0 +1,9 @@
+{
+  "title": "Homework: What the Error Should Say",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Write an error message for a failed token request that helps a person diagnose the failure, and contains no secret.",
+  "prerequisites": ["What a Log Line Holds"],
+  "section": "homework",
+  "spoiler": true
+}

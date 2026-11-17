@@ -1,0 +1,11 @@
+{
+  "title": "Homework: Redact a New Secret",
+  "runtime": "multi",
+  "minutes": 30,
+  "objective": "Add a redaction rule for an API key in a header, apply all three rules to a log line, and count the values removed.",
+  "prerequisites": ["Redacting a Log Line"],
+  "section": "homework",
+  "spoiler": true,
+  "languages": ["csharp", "python", "javascript"],
+  "expected": "2026-11-12T10:02:55Z call POST /orders X-Api-Key: [redacted] Authorization: Bearer [redacted] status=200 client=reporting password=[redacted]\nsecrets removed: 3"
+}

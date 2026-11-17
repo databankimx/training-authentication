@@ -1,0 +1,7 @@
+{
+  "title": "Summary: When a Request Is Refused",
+  "runtime": "none",
+  "minutes": 5,
+  "objective": "Check your understanding of the four kinds of refusal, the action each one calls for, and the limits that keep retries safe.",
+  "prerequisites": ["Homework: Add a Retry Limit", "Homework: Why Not Retry a 403"]
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Summary: Service-to-Service Calls",
+  "runtime": "none",
+  "minutes": 5,
+  "objective": "Check your understanding of per-hop identity, token reuse between calls, token exchange, and the confused deputy.",
+  "prerequisites": ["Homework: Narrow Each Hop", "Homework: The Confused Deputy"]
+}

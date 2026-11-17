@@ -1,0 +1,7 @@
+{
+  "title": "How the Device Code Flow Works",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Describe the steps of the device code flow, and the responses a device gets while it waits for a person.",
+  "prerequisites": ["Summary: Authorization Code with PKCE"]
+}

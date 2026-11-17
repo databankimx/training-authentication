@@ -1,0 +1,9 @@
+{
+  "title": "Homework: Decoding Is Not Verifying",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Explain why a decoded token can't be trusted, and what a verifier must check that decoding doesn't.",
+  "prerequisites": ["Decoding an Example Token"],
+  "section": "homework",
+  "spoiler": true
+}

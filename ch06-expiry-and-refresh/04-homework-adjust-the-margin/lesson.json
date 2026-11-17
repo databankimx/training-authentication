@@ -1,0 +1,11 @@
+{
+  "title": "Homework: Counting Refreshes",
+  "runtime": "multi",
+  "minutes": 25,
+  "objective": "Count how many request times need a refresh, and how many are already expired, for several safety margins.",
+  "prerequisites": ["Deciding If a Token Is Usable"],
+  "section": "homework",
+  "spoiler": true,
+  "languages": ["csharp", "python", "javascript"],
+  "expected": "Margin 60: refresh first 1, expired 1\nMargin 120: refresh first 2, expired 1\nMargin 240: refresh first 3, expired 1"
+}

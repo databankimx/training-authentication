@@ -1,0 +1,7 @@
+{
+  "title": "Summary: Audits and Compliance",
+  "runtime": "none",
+  "minutes": 5,
+  "objective": "Check your understanding of what an audit checks, the frameworks you will meet, and the evidence auditors ask for about authentication.",
+  "prerequisites": ["Homework: Rotation Evidence", "Homework: An Unowned Account"]
+}

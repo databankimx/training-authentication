@@ -1,0 +1,7 @@
+{
+  "title": "How a Signature Proves a Token Is Unchanged",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Explain how a signature is computed over the header and payload, and how a verifier recomputes it to decide whether a token was changed.",
+  "prerequisites": ["Summary: Inside a Token"]
+}

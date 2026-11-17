@@ -1,0 +1,7 @@
+{
+  "title": "Checking Requested Scopes",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Check a list of requested scopes against the scopes a client is allowed to ask for, and report the first one that isn't allowed.",
+  "prerequisites": ["What a Scope Is"]
+}

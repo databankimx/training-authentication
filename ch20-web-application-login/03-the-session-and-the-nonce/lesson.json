@@ -1,0 +1,7 @@
+{
+  "title": "The Session and the Nonce",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Explain the attributes that protect a session cookie, and how the nonce ties an ID token to the login that asked for it.",
+  "prerequisites": ["The Callback Checks"]
+}

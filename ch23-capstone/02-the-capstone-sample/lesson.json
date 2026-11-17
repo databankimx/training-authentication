@@ -1,0 +1,7 @@
+{
+  "title": "The Capstone Sample",
+  "runtime": "none",
+  "minutes": 25,
+  "objective": "Run a client through a simulated identity provider to a protected API, and see the four results that show each check at work.",
+  "prerequisites": ["The Pieces"]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Homework: Write a Finding",
+  "runtime": "none",
+  "minutes": 25,
+  "objective": "Write an authentication finding in report form: title, severity, affected component, description, impact, and recommendation, without steps to reproduce.",
+  "prerequisites": ["Common Flaws and Their Defenses"],
+  "section": "homework",
+  "spoiler": true
+}

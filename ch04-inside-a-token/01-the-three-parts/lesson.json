@@ -1,0 +1,7 @@
+{
+  "title": "The Three Parts of a Token",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Name the header, payload, and signature of a JWT, and the claims most often found in a payload.",
+  "prerequisites": ["Summary: API Keys"]
+}

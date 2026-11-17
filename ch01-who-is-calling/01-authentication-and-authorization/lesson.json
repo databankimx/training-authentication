@@ -1,0 +1,7 @@
+{
+  "title": "Authentication and Authorization",
+  "runtime": "none",
+  "minutes": 10,
+  "objective": "Separate the proof of identity, which is authentication, from the decision about what a caller may do, which is authorization.",
+  "prerequisites": ["Summary: Introduction"]
+}

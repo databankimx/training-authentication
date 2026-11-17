@@ -1,0 +1,9 @@
+{
+  "title": "Homework: Why Not Put a Key in the URL",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Name three places a key in a URL is copied to, and say why each one matters.",
+  "prerequisites": ["Where an API Key Goes"],
+  "section": "homework",
+  "spoiler": true
+}

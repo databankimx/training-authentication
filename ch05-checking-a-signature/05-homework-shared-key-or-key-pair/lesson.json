@@ -1,0 +1,9 @@
+{
+  "title": "Homework: Shared Key or Key Pair",
+  "runtime": "none",
+  "minutes": 15,
+  "objective": "Compare a shared secret with a public and private key pair, and say what a verifier can and cannot do with each.",
+  "prerequisites": ["Public and Private Keys"],
+  "section": "homework",
+  "spoiler": true
+}

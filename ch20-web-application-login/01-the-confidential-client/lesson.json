@@ -1,0 +1,7 @@
+{
+  "title": "The Confidential Client",
+  "runtime": "none",
+  "minutes": 12,
+  "objective": "Describe the steps of a web application login, and explain why the client secret stays on the server.",
+  "prerequisites": ["Summary: Protecting Endpoints"]
+}
