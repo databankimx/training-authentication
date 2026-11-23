@@ -324,8 +324,8 @@ if (-not (Test-Path $samplesPackage)) {
   "private": true,
   "type": "module",
   "dependencies": {
-    "express": "5.2.1",
-    "jose": "6.2.13"
+    "express": "5.3.0",
+    "jose": "6.2.17"
   }
 }
 '@
