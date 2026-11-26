@@ -3,7 +3,7 @@
   "name": "Working With Authentication",
   "folder": "training-authentication",
   "repoUrl": "https://github.com/databankimx/training-authentication.git",
-  "branch": "dev",
+  "branch": "main",
   "baseDirectory": "C:\\Development\\training",
   "runTests": true,
   "installs": {
