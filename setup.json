@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 2,
+  "name": "Working With Authentication",
+  "folder": "training-authentication",
+  "repoUrl": "https://github.com/databankimx/training-authentication.git",
+  "branch": "dev",
+  "baseDirectory": "C:\\Development\\training",
+  "runTests": true,
+  "installs": {
+    "git": { "install": true, "winget": "Git.Git" },
+    "powershell7": { "install": true, "pinned": "7", "winget": "Microsoft.PowerShell" },
+    "node": { "install": true, "pinned": "24", "orNewer": true, "winget": "OpenJS.NodeJS.LTS" },
+    "python": { "install": true, "pinned": "3.12", "winget": "Python.Python.3.12", "sideBySide": true },
+    "dotnet": { "install": true, "pinned": "10", "winget": "Microsoft.DotNet.SDK.10" },
+    "vcRuntime": { "install": true },
+    "vscode": { "install": true, "pinned": "1", "winget": "Microsoft.VisualStudioCode", "extensions": [ "ms-dotnettools.csharp", "ms-python.python" ] },
+    "buildTools": { "install": false }
+  },
+  "steps": [
+    {
+      "name": "Tutorial JavaScript samples",
+      "type": "npm",
+      "folder": "samples",
+      "command": "ci",
+      "requires": [ "node" ]
+    },
+    {
+      "name": "Repository Python environment",
+      "type": "python-venv",
+      "folder": ".",
+      "path": ".venv",
+      "requirements": "requirements.txt",
+      "requires": [ "python" ]
+    },
+    {
+      "name": "Lesson runner packages",
+      "type": "npm",
+      "folder": "lesson-runner",
+      "command": "ci",
+      "requires": [ "node" ]
+    },
+    {
+      "name": "Lesson runner tests",
+      "type": "npm-run",
+      "folder": "lesson-runner",
+      "script": "test",
+      "runTests": true,
+      "requires": [ "node" ]
+    }
+  ],
+  "launch": {
+    "ide": "vscode",
+    "kind": "electron",
+    "folder": "lesson-runner"
+  }
+}

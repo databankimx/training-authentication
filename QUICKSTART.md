@@ -106,6 +106,7 @@ The saved progress includes which lessons you've visited, the solutions you've r
 
 ## Troubleshooting
 
+- **The first C# run prints a long .NET welcome message and waits.** This happens once, the first time the .NET SDK runs on your computer. Press Escape to stop it, then run the file again. After that, C# runs as expected.
 - **Setup says a tool is missing and winget is not available.** Install **App Installer** from the Microsoft Store, or install the missing tool by hand, then run the script again.
 - **Setup says Node.js is too old.** Install the current LTS release from [nodejs.org](https://nodejs.org), open a new PowerShell window, and run the script again.
 - **Setup says Python 3.12 isn't available.** Install Python 3.12 from [python.org](https://www.python.org), or run the script again so winget can install it. Check that `py -3.12 --version` works in a new window.

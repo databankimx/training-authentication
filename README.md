@@ -65,7 +65,7 @@ See the Development Rules of Engagement linked above for the full policy, includ
 The tutorial is at [databankimx/training-authentication](https://github.com/databankimx/training-authentication). Run the setup script once from the tutorial's folder, then start the reader:
 
 ```pwsh
-pwsh -NoProfile -ExecutionPolicy Bypass -File .\setup.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File .\setup.ps1
 cd lesson-runner
 npm start
 ```
@@ -109,6 +109,8 @@ The reader is a window, built on the same runner as the other tutorials in this 
 * **Show solution (spoiler)** shows one correct answer, after you've tried.
 * **Reset** puts back the starter text of an exercise.
 * Examples in the lessons can be edited and run in place. Each code block has a copy button, which appears when you hover over it.
+
+The first time you run a C# file, the .NET SDK may print a long welcome message and wait. If it does, press Escape to stop the program, then run it again. After that first run, C# files run as expected.
 
 Keyboard shortcuts:
 
